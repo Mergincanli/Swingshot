@@ -13,6 +13,8 @@ Shots used:
 
 Links and capture details are in [references/shots.md](../references/shots.md).
 
+How each viewer differs from the in-game stills is recorded in [references/viewers.md](../references/viewers.md).
+
 ## Production brief: Blender
 
 Partial: shape only. These rules cover the model and its textures. There are no rules yet for outlines, shading bands, highlights, rim light or how materials respond to light.
@@ -280,18 +282,6 @@ These look game-wide but rest on one character. Nothing has been written to `aes
 - C10. A character does not cast shadows on itself and goes fully into shade, not partly. [breakdown: S4] Provisional support: the whole figure reads flat in the daylight still. [shot: ingame-front]
 - C11. Outline colour follows the local material and is not black. [breakdown: S4] Provisional support. [shot: ingame-front]
 - C12. A light rim of even width runs along silhouette edges. One recreation says it does not follow the mesh shape [breakdown: S4]; the other builds it in screen space from depth and states it is not a surface-angle effect. [breakdown: S3] Provisional support: a lighter strip, about `#E6CFC6` against `#C0B5B4`, sits just inside the outline on the same side of both boots. [shot: ingame-front]
-
-### Viewer sheets against the in-game stills
-
-What matched between both viewers and both stills: outfit construction, ornament placement, asymmetry, painted lines and hair clump layout. [viewer: A Front, B front] [shot: ingame-front, ingame-back]
-
-What differed, and so cannot be taken from a viewer sheet:
-- Pose. The viewers show the bind pose, which widens the outline of sleeves and hair. [viewer: A Front] [shot: ingame-front]
-- Proportions, depending on the viewer's camera: 6.9 head-heights in A Front against 5.7 in B front. [viewer: A Front, B front]
-- Outline. Neither viewer draws one. [viewer: A Front, B front]
-- Shading. Both viewers add soft gradients of their own on the face, legs and hair. In-game, both boots sample at one flat value across their width. [viewer: A Face, B front] [shot: ingame-front]
-- Colour. The two viewers agree on hue but not on brightness: viewer A reads darker than viewer B and puts a cool lilac tone, about `#D0CED8`, on one side of the white boots. The in-game colours are darker and more saturated than both. [viewer: A Front, B front] [shot: ingame-front]
-- Face. Viewer lighting reveals lip and nose volume that the in-game face does not show. [viewer: B front] [shot: ingame-front]
 
 ## Sources
 

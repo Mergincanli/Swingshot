@@ -19,3 +19,4 @@ Every link the art research relies on, one row each. Never list a page that was 
 | [three.js docs, OrthographicCamera](https://threejs.org/docs/pages/OrthographicCamera.html) | tool docs | Orthographic camera for proportion checks | characters/amber.md, Three.js brief |
 | [three.js manual, Color Management](https://threejs.org/manual/pages/color-management.html) | tool docs | sRGB annotation of colour textures | characters/amber.md, Three.js brief |
 | [three.js docs, Texture](https://threejs.org/docs/pages/Texture.html) | tool docs | The `colorSpace` property and its default | characters/amber.md, Three.js brief |
+| [Games Fashion Archive viewer page](https://gamesfashionarchive.net/viewer/2058/2) | community | What the viewer's interface offers: turntable and capture tool | references/viewers.md |
