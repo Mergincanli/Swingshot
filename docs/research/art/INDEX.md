@@ -8,4 +8,4 @@ Every doc in `docs/research/art/`, one row each. Add or update the row whenever 
 
 | Doc | Type | Status | Confidence | Updated |
 |---|---|---|---|---|
-| [characters/amber.md](characters/amber.md) | character | draft | Shape only | 2026-11-13 |
+| [characters/amber.md](characters/amber.md) | character | draft | Low | 2026-11-13 |
