@@ -4,12 +4,12 @@ Outfit: 5-Star Outrider, her default outfit. [community: S5] Neither viewer page
 
 Game version or shot date: Viewer captures made on 13 November 2026. The game version the viewer models come from is unverified. The two in-game stills carry no date or version.
 
-Confidence: Shape only. Two found in-game stills exist, but their source, version, platform and settings are unknown and the figure in them is under 800 px tall. They are used as a cross-check only. Every statement taken from them is marked "Provisional" and no brief rule rests on them.
+Confidence: Low. One in-game shot is confirmed gameplay (`ingame-back`: the game's HUD is in frame), so the doc is no longer Shape only. With fewer than three in-game shots and most renderer-side fields not observable, it is Low. `ingame-front` is a YouTube screenshot whose video is not linked and whose frame shows no game interface, so it stays provisional: every statement taken from it is marked "Provisional", it does not count toward the confidence, and no brief rule rests on it.
 
 Shots used:
 - Viewer sheet A: 16 labelled views (Front, 3/4 Front, 1/4 Front, Side, 3/4 Back, 1/4 Back, Back, Face, 1/4 Face, 3/4 Face, Footwear, Front Detail, 3/4 Front Detail, Back Detail, 3/4 Back Detail, Back of Head). Bind pose, red backdrop, viewer lighting. Tagged `[viewer: A <view>]`.
 - Viewer captures B: four captures (front, back, outfit front, outfit back; the last two show the clothing on a blank mannequin). Bind pose, white backdrop, viewer lighting. Tagged `[viewer: B <view>]`.
-- In-game stills: `ingame-front` (daylight, standing in grass, no HUD) and `ingame-back` (dim light, HUD visible). Tagged `[shot: <name>]`.
+- In-game stills, both Mustafa's screenshots of YouTube footage with the video not linked: `ingame-back` (dim light, HUD visible, confirmed gameplay) and `ingame-front` (daylight, standing in grass, no interface in the crop, provisional). Tagged `[shot: <name>]`.
 
 Links and capture details are in [references/shots.md](../references/shots.md).
 
@@ -17,7 +17,7 @@ How each viewer differs from the in-game stills is recorded in [references/viewe
 
 ## Production brief: Blender
 
-Partial: shape only. These rules cover the model and its textures. There are no rules yet for outlines, shading bands, highlights, rim light or how materials respond to light.
+These rules cover the model and its textures only. There are no rules yet for outlines, shading bands, highlights, rim light or how materials respond to light: one small in-game still is too little to write them from.
 
 1. Block out the body in an orthographic front view at about seven head-heights, with shoulders about one head wide and legs a little over half the height. (Axis 1)
 2. Model the face as a smooth surface whose only clear relief is a small nose tip, and draw brows, lash lines, eyelid crease and mouth line in the face texture. (Axis 2)
@@ -37,7 +37,7 @@ Sources for this brief:
 
 ## Production brief: Three.js / WebGPU
 
-Partial: shape only. The model and textures are authored elsewhere; these rules cover what the runtime must keep intact. There are no rules yet for shading, outlines or lighting.
+The model and textures are authored elsewhere; these rules cover what the runtime must keep intact. There are no rules yet for shading, outlines or lighting: one small in-game still is too little to write them from.
 
 1. Check proportions through an `OrthographicCamera`, because a close perspective camera changed the measured height from 6.9 to 5.7 head-heights between the two viewers. (Axis 1)
 2. Set `colorSpace = SRGBColorSpace` on every base-colour texture so the flat colours display as authored. (Axis 10)
@@ -137,7 +137,9 @@ Technique: Unverified. See candidates C9 and C10 under Comparison.
 ### 6. Outlines and inner lines
 
 Observation:
-- Outlines: Not observable. Neither viewer draws one. [viewer: A Front, B front] In-game front, side and back shots at two distances would show where outlines appear, how thick they are and where they vanish.
+- Outlines: neither viewer draws one. [viewer: A Front, B front]
+- In dim light a dark brown line, about `#533E20`, separates the thigh from the grass behind it and is darker than both. [shot: ingame-back]
+- Where outlines appear, how thick they are and where they vanish: Not observable. In-game front, side and back shots at two distances would resolve it.
 - Provisional: a thin dark line surrounds the whole silhouette and separates overlapping parts. It is about 2 px wide where the figure is at least 724 px tall, roughly 0.3% of figure height. [shot: ingame-front]
 - Provisional: the line's colour follows what it borders. It samples as dark wine, about `#462638`, around the hair, and as warm brown, about `#B2785E`, at the jaw. No sampled line is pure black. [shot: ingame-front]
 - Lines drawn onto the surface:
@@ -224,10 +226,10 @@ Observation: Base colours were sampled from B front and B back, the most evenly 
 - White: slightly warm, and used for the two largest plain areas, the boots and the chest piece. [viewer: B front]
 - Hue: every dark colour except the inner sleeves leans red, hue 0–15°, not neutral or blue. [viewer: B front, B back]
 - Iris colour values: Not observable. The iris is too small to sample in every view; an in-game face close-up would resolve it.
-- Lit tone and shadow tone per colour: Not observable. In-game shots of the same pose in direct sun and in shade would resolve it.
+- Lit tone and shadow tone: observed for white only, in dim light (see below). For every other colour: Not observable. In-game shots of the same pose in direct sun and in shade would resolve it.
 - The textures themselves hold a second, darker tone in places: red `#A63F3F` with `#953C3C` under the hood, and white `#EAE6E4` with `#CAC5C1` under the bust. [viewer: B front, B outfit front]
 - Provisional, daylight still: red `#902126`, hair `#5A2D3A`, corset `#43262B`, white `#C0B5B4`, skin `#F5CCB0`. Against the viewer's base colours these are darker, more saturated and shifted toward red. The white reading suggests the figure is in shade or the still has a warm cast. [shot: ingame-front]
-- Provisional, dim-light still: the white boots split into two flat tones with a hard edge, lit about `#A4A5A4` and shadow about `#756B78`. The shadow tone is cooler and leans purple; it is not just darker. [shot: ingame-back]
+- In dim light the white boots split into two flat tones with a hard edge, lit about `#A4A5A4` and shadow about `#756B78`. The shadow tone is cooler and leans purple; it is not just darker. [shot: ingame-back]
 
 Technique: Each material region holds one flat base colour in the texture, with a few painted darker shapes. [inferred] One recreation reports that the game sets the colours on each side of the shadow edge per character with shadow ramps. [breakdown: S4] Unverified on Amber.
 
@@ -244,17 +246,16 @@ Observation:
 - From behind, hair hides most of the red. The bow, the red boot tops and the white legs carry the identity. [viewer: B back]
 - Neighbouring blocks differ strongly in value: white at about 90%, red at about 65%, dark brown at about 31–35%. [viewer: B front]
 - In motion: Not observable. Three frames of a run cycle would resolve it.
-- At a distance: Not observable. An in-game shot with the figure small in frame would resolve it.
-- Provisional: at about 430 px tall the bow, hair mass, red bands and white legs still separate clearly, while the gold detail no longer reads. [shot: ingame-back]
+- At a distance: at about 430 px tall the bow, hair mass, red bands and white legs still separate clearly, while the gold detail no longer reads. [shot: ingame-back] Smaller sizes: Not observable. An in-game shot with the figure small in frame would resolve it.
 
 Technique: The large blocks are separated by value first and hue second. [inferred]
 
 ### 13. Fit with the world
 
 Observation:
-- Not observable. In-game shots in Mondstadt in daylight and in shade, with the figure small in frame, would resolve it.
+- By day: Not observable. In-game shots in Mondstadt in daylight, with the figure small in frame, would resolve it.
 - Provisional: against green grass, a blue-grey cliff and a pale building, her red and dark brown do not occur in the background, so the figure separates by hue as well as by outline. [shot: ingame-front]
-- Provisional: in dim light on dark grass, the white legs and red bands stay the brightest and most saturated shapes in frame. [shot: ingame-back]
+- In dim light on dark grass, the white legs and red bands stay the brightest and most saturated shapes in frame. [shot: ingame-back]
 
 Technique:
 - The developer says characters and scenes are rendered in separate passes, and that characters receive real-time light and ambient environment light, including cast shadows such as trees, through a 24-hour cycle. [official: S1]
@@ -278,7 +279,7 @@ These look game-wide but rest on one character. Nothing has been written to `aes
 - C6. Gold accents are a desaturated khaki with painted facets. Basis: Axes 8 and 10. [viewer: B outfit front]
 - C7. Every garment piece ends in a trim band or a hard colour change. Basis: Axis 7. [viewer: B outfit front]
 - C8. Palette structure: a dark, low-saturation base, one saturated signature colour, white, and a small gold accent. Basis: Axis 10. [viewer: B front]
-- C9. Shadow tones shift hue and are set per character, not just darkened. Basis: Axis 10. [breakdown: S4] Provisional support. [shot: ingame-back]
+- C9. Shadow tones shift hue and are set per character, not just darkened. Basis: Axis 10. [breakdown: S4] In-game support on the white boots. [shot: ingame-back]
 - C10. A character does not cast shadows on itself and goes fully into shade, not partly. [breakdown: S4] Provisional support: the whole figure reads flat in the daylight still. [shot: ingame-front]
 - C11. Outline colour follows the local material and is not black. [breakdown: S4] Provisional support. [shot: ingame-front]
 - C12. A light rim of even width runs along silhouette edges. One recreation says it does not follow the mesh shape [breakdown: S4]; the other builds it in screen space from depth and states it is not a surface-angle effect. [breakdown: S3] Provisional support: a lighter strip, about `#E6CFC6` against `#C0B5B4`, sits just inside the outline on the same side of both boots. [shot: ingame-front]
@@ -296,9 +297,9 @@ Tool documentation is listed under each brief.
 
 ## Open questions
 
-1. Where do the two in-game stills come from, and which game version, platform and graphics preset do they show? Until that is known they stay provisional. If either is a trailer frame, it is not evidence.
+1. Which YouTube video does `ingame-front` come from? Its frame shows no game interface, so gameplay is unconfirmed and it stays provisional. If it is a trailer frame, it is not evidence. For both stills, the game version, platform and graphics preset are unknown.
 2. Which game version do the viewer models come from?
-3. In-game shots that would lift this doc above Shape only. Record game version, platform and graphics preset with each, because PC and console use a different rendering pipeline from mobile. [official: S2]
+3. In-game shots that would lift this doc above Low. Record game version, platform and graphics preset with each, because PC and console use a different rendering pipeline from mobile. [official: S2]
 
    | Shot | Fills |
    |---|---|

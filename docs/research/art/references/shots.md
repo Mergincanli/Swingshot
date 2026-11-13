@@ -18,5 +18,5 @@ A viewer sheet is marked "not in-game" in the Shot column. What each viewer gets
 | Viewer sheet A, not in-game. 16 views: Front, 3/4 Front, 1/4 Front, Side, 3/4 Back, 1/4 Back, Back, Face, 1/4 Face, 3/4 Face, Footwear, Front Detail, 3/4 Front Detail, Back Detail, 3/4 Back Detail, Back of Head | https://phoshco.github.io/model-viewer/amber | Captured 2026-11-13. Game version of the model unverified | Viewer lighting, red backdrop, bind pose |
 | Viewer captures B, not in-game: front, back | https://gamesfashionarchive.net/viewer/2058/2 | Captured 2026-11-13. Game version of the model unverified | Viewer lighting, white backdrop, bind pose |
 | Viewer captures B, not in-game: outfit front, outfit back (clothing on a blank mannequin) | Same site; exact page not given | Captured 2026-11-13. Game version of the model unverified | Viewer lighting, white backdrop, bind pose |
-| ingame-front | pasted in chat, no link | Unknown. Source unconfirmed | Daylight, figure evenly lit, no HUD |
-| ingame-back | pasted in chat, no link | Unknown. Source unconfirmed | Dim light, HUD visible |
+| ingame-front. Provisional: gameplay not confirmed from the frame | pasted in chat, no link. Mustafa's screenshot of YouTube footage; video not linked | Unknown | Daylight, figure evenly lit, no game interface in the crop |
+| ingame-back. Confirmed gameplay: HUD in frame | pasted in chat, no link. Mustafa's screenshot of YouTube footage; video not linked | Unknown | Dim light |
