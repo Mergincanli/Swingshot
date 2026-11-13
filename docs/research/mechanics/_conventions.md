@@ -17,12 +17,16 @@ Describe GunZ: The Duel as it behaved. Never propose what Swingshot should do, n
 
 ## Evidence tags
 
-- **Verified:** several independent sources, or footage that shows it.
+- **Verified:** several independent sources, or footage Mustafa has confirmed.
 - **Community consensus:** widely repeated, no primary evidence.
 - **Single-source:** one source only.
 - **Inferred:** reasoned from behaviour, stated by no source. Allowed only in Cause sections.
 
-Footage and screenshots supplied by Mustafa count as evidence; say what was observed in them.
+Sources that copy each other (mirrors, reposts, quotes) count as one source.
+
+Video: do not describe what a video shows unless its description or transcript states it, or Mustafa has watched it and confirmed it, or supplied screenshots from it. Say what was observed and by whom. A link alone proves nothing.
+
+Research reports in `references/reports/` are maps, not sources. Open the pages they point to and cite those.
 
 Numbers (frames, milliseconds, damage, spread, range) need a source. Without one, write "Unquantified".
 
@@ -49,10 +53,10 @@ Every doc starts with:
 Game: GunZ: The Duel
 Reference version:
 Confidence: High / Medium / Low
-Status: Draft / Reviewed
+Status: draft / reviewed
 ```
 
-Status becomes Reviewed only when Mustafa has read the doc.
+A doc is `draft` until Mustafa has read it, then `reviewed`. Only Mustafa sets `reviewed`.
 
 ## Doc types
 
@@ -88,19 +92,15 @@ Styles combine techniques, so they have no Production Brief.
 ## Sources
 ```
 
-## INDEX.md
+## Index and reference files
 
-One row per doc, including docs that are planned but not written:
-
-| Doc | Type | Status | Confidence | Reference version | Open questions | Last updated |
-|---|---|---|---|---|---|---|
-
-Status for a planned doc is "Not started".
+The columns and allowed values of `INDEX.md`, `references/sources.md` and `references/footage.md` are defined at the top of each file. Follow them exactly.
 
 ## File names
 
-Lowercase with hyphens, no version in the name: `slash-shot.md`.
+Lowercase with hyphens, no version in the name: `slash-shot.md`. Raw Research reports: `references/reports/YYYY-MM-DD-topic.md`.
 
 ## Change log
 
 - 2026-11-13: first version.
+- 2026-11-13: status values and index columns aligned with the art research; index and reference-file formats moved into those files; rules added for video, copied sources and Research reports; file name for reports.
