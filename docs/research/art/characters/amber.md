@@ -131,8 +131,9 @@ Observation:
 - Skin shows on the face, neck, upper chest, wrists and a band of thigh. [viewer: A Front]
 - Shading bands and rim light: Not observable. In-game shots in direct sun and in shade would resolve it.
 - Provisional: the face is one flat tone, about `#F5CCB0`. The neck is slightly darker and more saturated, about `#F5BFA1`, and meets the face at a hard edge under the jaw. The thigh is one flat tone across its width. [shot: ingame-front]
+- Provisional: a lighter strip, about `#E6CFC6` against `#C0B5B4`, sits just inside the outline on the same side of both boots. [shot: ingame-front]
 
-Technique: Unverified. See candidates C9 and C10 under Comparison.
+Technique: Unverified. See candidates C9, C10 and C12 in [aesthetics/_candidates.md](../aesthetics/_candidates.md).
 
 ### 6. Outlines and inner lines
 
@@ -269,20 +270,11 @@ None yet. This is the first doc in `characters/`.
 
 ### Game-wide candidates
 
-These look game-wide but rest on one character. Nothing has been written to `aesthetics/`. Each candidate needs two more characters before it moves there.
+Supports: C1, C2, C3, C4, C5, C6, C7, C8, C9, C13, C14, C15, C16.
 
-- C1. Stitches, seams, creases and trim edges are painted into the base-colour texture. Basis: Axis 6. [viewer: B outfit front, B outfit back]
-- C2. Textures hold hand-painted darker shapes at folds and overhangs. Basis: Axes 7 and 10. [viewer: B outfit front] [breakdown: S4]
-- C3. The face is nearly featureless geometry, and its shading comes from a mask that responds to light direction. Basis: Axis 2. [viewer: A Face] [official: S1] Not yet observed in-game.
-- C4. Eye highlights are painted, on the same side in both eyes. Basis: Axis 3. [viewer: A Face]
-- C5. Hair is a cap plus a few thick pointed clumps, with painted strand lines and a crown-to-tip gradient. Basis: Axis 4. [viewer: B back]
-- C6. Gold accents are a desaturated khaki with painted facets. Basis: Axes 8 and 10. [viewer: B outfit front]
-- C7. Every garment piece ends in a trim band or a hard colour change. Basis: Axis 7. [viewer: B outfit front]
-- C8. Palette structure: a dark, low-saturation base, one saturated signature colour, white, and a small gold accent. Basis: Axis 10. [viewer: B front]
-- C9. Shadow tones shift hue and are set per character, not just darkened. Basis: Axis 10. [breakdown: S4] In-game support on the white boots. [shot: ingame-back]
-- C10. A character does not cast shadows on itself and goes fully into shade, not partly. [breakdown: S4] Provisional support: the whole figure reads flat in the daylight still. [shot: ingame-front]
-- C11. Outline colour follows the local material and is not black. [breakdown: S4] Provisional support. [shot: ingame-front]
-- C12. A light rim of even width runs along silhouette edges. One recreation says it does not follow the mesh shape [breakdown: S4]; the other builds it in screen space from depth and states it is not a surface-angle effect. [breakdown: S3] Provisional support: a lighter strip, about `#E6CFC6` against `#C0B5B4`, sits just inside the outline on the same side of both boots. [shot: ingame-front]
+Breaks: none.
+
+The candidates and their evidence are in [aesthetics/_candidates.md](../aesthetics/_candidates.md).
 
 ## Sources
 

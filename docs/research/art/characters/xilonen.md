@@ -132,7 +132,7 @@ Observation:
 - Soft darker lines mark the spine and shoulder blades on the bare back. [viewer: B back] Whether they are painted or come from the viewer's lighting is unverified.
 - Shading bands and rim light: Not observable. In-game shots in direct sun and in shade would resolve it.
 
-Technique: Knee strokes, thigh diamonds and speckles are painted in the skin texture. [inferred] Shading: unverified. See candidates C9 and C10 under Comparison.
+Technique: Knee strokes, thigh diamonds and speckles are painted in the skin texture. [inferred] Shading: unverified. See candidates C9 and C10 in [aesthetics/_candidates.md](../aesthetics/_candidates.md).
 
 ### 6. Outlines and inner lines
 
@@ -267,7 +267,7 @@ Shared:
 - Eyes: a thick upper lash band with a wing and one upward spike, an iris darker at the top, a grey band on the white, and painted highlights placed the same way in both eyes. [viewer: A Face]
 - Hair: a cap plus thick pointed clumps, painted strand lines, and a painted root-to-tip colour shift. [viewer: B back]
 - Painted lines: the same two short strokes at each knee, front and back. Amber has them on boots, Xilonen on bare skin. [viewer: B front, B back]
-- Gold metal: a desaturated khaki with flat facets, `#AB9873` here against `#B3A07E` on Amber. [viewer: B front]
+- Gold metal: a desaturated khaki with flat facets, `#AB9873` here against `#BFAB86` on Amber. [viewer: B front]
 - No pure black. [viewer: B front]
 - Detail in clusters with plain areas between, and asymmetry from one-sided accessories. [viewer: B front]
 
@@ -283,26 +283,11 @@ Where Xilonen breaks the pattern:
 
 ### Game-wide candidates
 
-Candidates C1 to C12 come from amber.md; C13 to C16 are new. Nothing has been written to `aesthetics/`: a candidate moves there once it holds for three characters.
+Supports: C1, C3, C4, C5, C6, C7, C13, C14, C15, C16.
 
-| Candidate | Amber | Xilonen |
-|---|---|---|
-| C1. Stitches, seams, creases and trim edges are painted into the base-colour texture | Holds | Holds [viewer: B front, B back] |
-| C2. Textures hold hand-painted darker shapes at folds and overhangs | Holds | Not established: no clear fold shapes at this size [viewer: B front] |
-| C3. The face is nearly featureless geometry, shaded by a light-direction mask | Shape holds | Shape holds, with raised lips [viewer: A Face] |
-| C4. Eye highlights are painted and placed the same way in both eyes | Holds | Holds [viewer: A Face] |
-| C5. Hair is a cap plus thick pointed clumps with painted strand lines and gradient | Holds | Holds, with braids modelled [viewer: B back] |
-| C6. Gold metal is a desaturated khaki with flat facets | Holds | Holds [viewer: B front] |
-| C7. Every garment edge is marked by contrast | Holds, as trim bands | Holds only in this wider wording: fringe and rips, not bands [viewer: B front] |
-| C8. Palette: dark low-saturation base, one saturated colour, white, small gold accent | Holds | Breaks [viewer: B front, A Front] |
-| C9. Shadow tones shift hue and are set per character | In-game support | Not observable |
-| C10. A character does not shadow itself and goes fully into shade | Provisional support | Not observable |
-| C11. Outline colour follows the local material | Provisional support | Not observable |
-| C12. An even-width light rim runs along silhouette edges | Provisional support | Not observable |
-| C13. The body is symmetric; asymmetry comes from one-sided accessories | Holds | Holds [viewer: B front, B back] |
-| C14. Detail sits in clusters separated by large plain areas of cloth or skin | Holds | Holds [viewer: B front, B back] |
-| C15. Eye recipe: thick upper lash band with a wing and one upward spike, iris darker at the top, grey band on the white | Holds | Holds [viewer: A Face] |
-| C16. No pure black; the darkest values sit at about 20–25% | Holds | Holds [viewer: B front] |
+Breaks: C8.
+
+The candidates and their evidence are in [aesthetics/_candidates.md](../aesthetics/_candidates.md).
 
 ## Sources
 
