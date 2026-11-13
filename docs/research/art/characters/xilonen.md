@@ -283,7 +283,7 @@ Where Xilonen breaks the pattern:
 
 ### Game-wide candidates
 
-Supports: C1, C3, C4, C5, C6, C7, C13, C14, C15, C16.
+Supports: C1, C3, C4, C5, C6, C7, C13, C14, C15, C16, C18.
 
 Breaks: C8.
 

@@ -270,7 +270,7 @@ None yet. This is the first doc in `characters/`.
 
 ### Game-wide candidates
 
-Supports: C1, C2, C3, C4, C5, C6, C7, C8, C9, C11, C12, C13, C14, C15, C16.
+Supports: C1, C2, C3, C4, C5, C6, C7, C8, C9, C11, C12, C13, C14, C15, C16, C18.
 
 Breaks: none.
 
