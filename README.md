@@ -18,7 +18,8 @@ docs/
       enemies/                one file per enemy type
       regions/                one file per region
       references/sources.md   every link used, with what it was used for
-      references/shots.md     links to in-game screenshots, grouped by subject
+      references/shots.md     links to in-game screenshots and viewer sheets, grouped by subject
+      references/viewers.md   model viewers used for viewer sheets, and how each differs from the game
     mechanics/                written only by the GunZ mechanics research
       INDEX.md                every doc, status, confidence, reference version
       _conventions.md         agreed vocabulary: version labels, evidence tags, importance scale, action names, doc formats; change only by agreement

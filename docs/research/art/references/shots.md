@@ -1,6 +1,6 @@
 # Shots
 
-Links to in-game screenshots, grouped by subject. Images are never committed to this repo.
+Links to in-game screenshots and viewer sheets, grouped by subject. Images are never committed to this repo.
 
 One `## Subject` heading per character, enemy or region, then one row per shot under it, in these columns:
 
@@ -8,6 +8,8 @@ One `## Subject` heading per character, enemy or region, then one row per shot u
 |---|---|---|---|
 
 A shot that was pasted in chat and has no link is recorded as "pasted in chat, no link".
+
+A viewer sheet is marked "not in-game" in the Shot column. What each viewer gets right and wrong is in [viewers.md](viewers.md).
 
 ## Amber
 
