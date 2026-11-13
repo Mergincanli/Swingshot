@@ -10,3 +10,17 @@ Every doc in `docs/research/mechanics/`, one row each, including docs that are p
 
 | Doc | Type | Status | Confidence | Reference version | Open questions | Updated |
 |---|---|---|---|---|---|---|
+| [versions.md](versions.md) | versions | draft | Low | IJJI | 13 | 2026-11-13 |
+| systems/animation-cancel.md | system | not started |  | IJJI |  |  |
+| systems/movement.md | system | not started |  | IJJI |  |  |
+| systems/melee.md | system | not started |  | IJJI |  |  |
+| systems/blocking.md | system | not started |  | IJJI |  |  |
+| systems/ranged.md | system | not started |  | IJJI |  |  |
+| systems/hit-registration.md | system | not started |  | IJJI |  |  |
+| techniques/butterfly.md | technique | not started |  | IJJI |  |  |
+| techniques/slash-shot.md | technique | not started |  | IJJI |  |  |
+| techniques/reload-shot.md | technique | not started |  | IJJI |  |  |
+| styles/_survey.md | style | not started |  | IJJI |  |  |
+| styles/k-style.md | style | not started |  | IJJI |  |  |
+| styles/d-style.md | style | not started |  | IJJI |  |  |
+| styles/m-style.md | style | not started |  | IJJI |  |  |
