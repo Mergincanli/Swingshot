@@ -22,6 +22,7 @@ Called viewer A in the character docs. Lines that start with a character's name 
   - Navia: the same 16 views on an amber backdrop. The Footwear view frames the boots and the Detail views the head, shoulders and hips. The backdrop is close in colour to her yellow skirt, so the skirt's outline is hard to read in the Front view. [viewer: A Footwear, A Front Detail, A Front]
   - Zhongli: the same 16 views on a black backdrop. Near-black parts, such as the gloves and the lapels, are hard to tell from the backdrop. [viewer: A Front]
   - Wriothesley: the same 16 views on a black backdrop. His black arm wraps and gloves are hard to tell from it. [viewer: A Front]
+  - Valeriy: the same 16 views on a black backdrop. No capture from the other viewer was provided for him. [viewer: A Front]
 - Reliable for:
   - Outfit construction, ornament placement, asymmetry, painted lines and hair clump layout. All of these matched the back view in-game. [viewer: A Back] [shot: ingame-back] They also matched the front view. [viewer: A Front] [shot: ingame-front]
   - Face and eye construction. Its Face view is the largest face in either viewer, with the iris about 35 px wide. [viewer: A Face]
@@ -42,6 +43,7 @@ Called viewer A in the character docs. Lines that start with a character's name 
     - Navia: both viewers show lighter marks on the fringe and the ringlets, in the same places. This sheet draws them white with jagged ends; the other viewer draws them as a paler blonde with softer edges. [viewer: A Face, A Back Detail, B front, B back]
     - Zhongli: it draws crisp white jagged marks in a ring round the crown; the other viewer draws none. [viewer: A Face, A Back of Head, B front, B back]
     - Wriothesley: it draws one crisp white jagged mark on the fringe; the other viewer draws none. [viewer: A Face, B front]
+    - Valeriy: it draws a row of crisp white jagged marks across the fringe. There is no second viewer to compare. [viewer: A Face]
   - Sheer legwear. Clorinde: both viewers render the tights lighter along the middle of each leg and darker toward its outline in every view, so the tone follows the camera, not the surface. [viewer: A Front, A Side, B front, B back] Whether the game does the same is unverified.
   - Surfaces turned away from the light. Navia: the inner face of the skirt tails reads as a yellow that fades to cream here and as a dull khaki, about `#937753`, in the other viewer. Both are viewer shading. [viewer: A Front, B front]
   - Linings. Zhongli: it shows the inside of the coat's skirt as golden yellow, about `#C5A14F`; the other viewer shows no yellow in any capture. [viewer: A Front, A 3/4 Back, B front, B side] Which viewer is right is unverified; an in-game shot from behind at three-quarter angle would settle it.
@@ -52,6 +54,7 @@ Called viewer A in the character docs. Lines that start with a character's name 
   - Navia: the camera has perspective; it is not orthographic. The tips of her skirt tails, which stand well behind the body, sit 76% of the way down the figure in the Front view, 82% in the Side view and 91% in the Back view. [viewer: A Front, A Side, A Back] Parts in the body's own plane can be compared between views; parts that stand in front of or behind it read smaller and higher when they are farther from the camera, and larger and lower when they are nearer. Her hair measures 2.4 heads wide in the Front view and 2.7 in the Back view, her skirt tails 2.7 and 3.3. [viewer: A Front, A Back]
   - Zhongli: about 8.4 head-heights, between 8.2 and 8.6. His head is about 76 px tall in the Front view, so 2 px on the chin moves the count by 0.2; on small heads the count is coarse. [viewer: A Front]
   - Wriothesley: about 7.7 head-heights, between 7.5 and 7.9. Tall hair and thick soles both enter the count. [viewer: A Front]
+  - Valeriy: its own views disagree. The Front view gives about 9.0 head-heights and the Side view about 8.3, with a head of about 62 px and about 31 px. [viewer: A Front, A Side] On a head this small one pixel moves the count by 0.15 to 0.3, so the sheet cannot fix his head count more closely than that range.
 - Checked against: `ingame-front` and `ingame-back`, YouTube playthrough footage captured by Mustafa, in [characters/amber.md](../characters/amber.md). No other character has an in-game shot yet, so their lines compare the two viewers with each other only.
 
 ## Games Fashion Archive viewer
