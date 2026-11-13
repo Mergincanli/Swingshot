@@ -51,7 +51,7 @@ Range:
 - Tone of the fold shapes, as viewer readings only: red `#A63F3F` with `#953C3C` and white `#EAE6E4` with `#CAC5C1` on Amber; yellow `#EFBC69` with `#CD9A4B` on Navia. [doc: amber, axis 10] [doc: navia, axis 10] Each pair keeps the hue and drops in value. Neither viewer is a reference for brightness, as recorded in [references/viewers.md](../references/viewers.md), so the numbers are not targets.
 
 Exceptions:
-- None of the four breaks the finding on lines.
+- None of the four breaks the finding on lines. [doc: amber, axis 6] [doc: xilonen, axis 6] [doc: clorinde, axis 6] [doc: navia, axis 6]
 - Fold shapes: Xilonen is not observable, not a break. Her views are too small to show any. [viewer: Xilonen B front]
 - A darker shape was counted only when it shows in the same place under both viewers' lighting, because both viewers add shading of their own, as recorded in [references/viewers.md](../references/viewers.md). Soft lines on Xilonen's bare back show in one viewer only, are unverified, and are left out. [doc: xilonen, axis 5]
 
