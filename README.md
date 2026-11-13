@@ -80,4 +80,4 @@ Research doc changes → its Production Brief section is re-read → the matchin
 ## What does not belong here
 
 - Screenshots, video or other captured media. Link them from the `references/` files.
-- Anything extracted or copied from either game. We reproduce styles and systems, never assets or characters.
+- Anything copied from either game: assets, characters, code or data files. We reproduce styles and systems. Rules and values read from a game's files or source code may be written down as facts, in our own words.
