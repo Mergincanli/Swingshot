@@ -11,7 +11,7 @@ This skill works for any game. The project instructions decide which game, which
 
 ## Rules
 
-1. **In-game model only.** Splash art, cards, key visuals and merchandise are not evidence. Mention them only to note where they differ from the model. A viewer sheet is a render of the game's own model outside the game, from a model viewer or turntable. It is evidence for the shape side only: what belongs to the model and its textures, such as silhouette, proportions, the construction of face, eyes and hair, clothing, ornament, painted lines and unlit base colours. It is never evidence for what the game's renderer adds: outlines, shading bands, highlights, rim light, material response, or how the character sits in a scene.
+1. **In-game model only.** Splash art, cards, key visuals, trailers and merchandise are not evidence. Mention them only to note where they differ from the model. A viewer sheet is a render of the game's own model outside the game, from a model viewer or turntable. It is evidence for the shape side only: what belongs to the model and its textures, such as silhouette, proportions, the construction of face, eyes and hair, clothing, ornament, painted lines and unlit base colours. It is never evidence for what the game's renderer adds: outlines, shading bands, highlights, rim light, material response, or how the character sits in a scene.
 2. **Seen or cited, nothing else.** You cannot view images found through web search. Describe only what is visible in a shot or viewer sheet the user provided, or stated in a source you opened. Anything you know from memory is inference and is tagged as inference.
 3. **Observation and technique stay separate.** "Hair reads as five large clumps" is observation. "Probably two-tone cel shading with a painted highlight mask" is technique.
 4. **Every claim carries an evidence tag.**
@@ -25,7 +25,7 @@ This skill works for any game. The project instructions decide which game, which
 
 2. **Ask for shots, then stop.** List what you need: front, side, back, three-quarter, face close-up, hair detail, weapon in hand, and one shot outdoors in daylight. Ask for flat, neutral lighting where possible. Wait until the user provides them. With neither an in-game shot nor a viewer sheet, do not dissect. With a viewer sheet only, do not wait for more: dissect the shape side, write "Not observable" for everything the renderer adds, and list the in-game shots that would fill it.
 
-3. **Load the shared context.** Read `_axes.md` and everything in `aesthetics/`. If `_axes.md` holds no agreed axes, propose a list based on the defaults below, wait for agreement, save it, then continue.
+3. **Load the shared context.** Read `_axes.md` and everything in `aesthetics/`. When a viewer sheet is used, also read `references/viewers.md`. If `_axes.md` holds no agreed axes, propose a list based on the defaults below, wait for agreement, save it, then continue.
 
 4. **Search for text sources.** Look for developer talks and interviews, and for technical breakdowns of how this game renders characters. Note what each one covers. Never cite a page you did not open.
 
@@ -35,9 +35,9 @@ This skill works for any game. The project instructions decide which game, which
 
 7. **Compare.** Read up to three existing docs in `characters/`. Note what this character shares with them and where it breaks the pattern. A finding that now holds for three or more characters moves to `aesthetics/`: write or update that doc and link to it.
 
-8. **Write the production briefs.** One per tool, each able to stand alone. Five to ten numbered rules per brief. When confidence is Shape only, head each brief "Partial: shape only", write rules only for what was observed or cited, and accept fewer than five. Each rule is one imperative sentence that can be carried out in that tool, followed by the axis it rests on. A rule says how to reproduce what was observed. It is not a claim about how the developer built it, and not a design decision for another game. Close each brief with its own sources: one link the maker can open for every technique its rules name.
+8. **Write the production briefs.** One per tool, each able to stand alone. Five to ten numbered rules per brief. When confidence is Shape only, head each brief "Partial: shape only", write rules only for what was observed or cited, and accept fewer than five. Each rule is one imperative sentence that can be carried out in that tool, followed by the axis it rests on. A rule says how to reproduce what was observed. It is not a claim about how the developer built it, and not a design decision for another game. Close each brief with its own sources: one link the maker can open for every technique its rules name. Manual and API pages for the production tool are source type `tool docs`, cited only in a brief's source list.
 
-9. **Save and index.** Save the doc in `characters/`, named after the character in lowercase with hyphens, ending in `.md`. Add the shots to `references/shots.md`; a shot without a link is recorded as "pasted in chat, no link", and you ask once where it came from. Add the sources to `references/sources.md`. Add or update the doc's row in `INDEX.md`. If you cannot write to the folder, output each complete file in its own block, headed by its full path.
+9. **Save and index.** Save the doc in `characters/`, named after the character in lowercase with hyphens, ending in `.md`. Add the shots to `references/shots.md`; a shot without a link is recorded as "pasted in chat, no link", and you ask once where it came from. Add the sources to `references/sources.md`. When a viewer sheet was checked against an in-game shot, record what matched and what differed in `references/viewers.md`, not in the character doc. Add or update the doc's row in `INDEX.md`. If you cannot write to the folder, output each complete file in its own block, headed by its full path.
 
 10. **Run the checklist.**
 
@@ -58,6 +58,8 @@ Put the tag in square brackets at the end of the sentence or field it covers.
 - **Medium:** the shots cover the character, but technique is mostly `[inferred]` or `[community]`.
 - **Low:** fewer than three shots, or key axes are not observable.
 - **Shape only:** a viewer sheet covers the character and there is no in-game shot. The shape side can be relied on; everything the renderer adds is unobserved.
+
+An in-game shot whose source is unknown is provisional. Mark each statement taken from it "Provisional", rest no brief rule on it, and do not let it raise the confidence. Drop the label once the source is given.
 
 ## Default axes
 
