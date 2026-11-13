@@ -11,3 +11,4 @@ Every doc in `docs/research/art/`, one row each. Add or update the row whenever 
 | [characters/amber.md](characters/amber.md) | character | draft | Low | 2026-11-13 |
 | [characters/xilonen.md](characters/xilonen.md) | character | draft | Shape only | 2026-11-13 |
 | [characters/clorinde.md](characters/clorinde.md) | character | draft | Shape only | 2026-11-13 |
+| [characters/navia.md](characters/navia.md) | character | draft | Shape only | 2026-11-13 |
