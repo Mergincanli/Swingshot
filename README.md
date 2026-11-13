@@ -12,7 +12,7 @@ docs/
     art/                      written only by the Genshin art-style research
       INDEX.md                every doc, status, confidence
       _axes.md                agreed dissection axes; change only by agreement
-      style/                  game-wide look findings: outlines, hair shading, skin, palette system, face construction (not play styles; those are mechanics/styles/)
+      aesthetics/             game-wide look findings: outlines, hair shading, skin, palette system, face construction
       characters/             one file per character, via art-style-character-dissection
       weapons/                only when a weapon deserves its own doc; otherwise inside the character file
       enemies/                one file per enemy type
@@ -50,6 +50,7 @@ docs/
 blender/                      source files, textures, exports
 web/                          Three.js / WebGPU demo
 .claude/skills/               the skills the research runs on: art-style-character-dissection, mechanic-deconstruction
+CLAUDE.md                     loaded by every Claude Code session; points to this README
 ```
 
 Under `docs/research/`, a doc file exists only once it has been written. The names in the layout show what is expected, not what is there; `INDEX.md` in each folder lists what is there.
@@ -58,7 +59,7 @@ Under `docs/research/`, a doc file exists only once it has been written. The nam
 
 1. Write only inside your own folder under `docs/research/`.
 2. Update `INDEX.md` every time a doc is added or changed.
-3. Game-wide findings go in `style/` or `systems/`, not repeated per character or technique.
+3. Game-wide findings go in `aesthetics/` or `systems/`, not repeated per character or technique.
 4. Link screenshots and footage; never commit images or video.
 5. Describe the reference game. Never propose what our game should do.
 

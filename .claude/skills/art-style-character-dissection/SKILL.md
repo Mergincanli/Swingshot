@@ -25,15 +25,15 @@ This skill works for any game. The project instructions decide which game, which
 
 2. **Ask for shots, then stop.** List what you need: front, side, back, three-quarter, face close-up, hair detail, weapon in hand, and one shot outdoors in daylight. Ask for flat, neutral lighting where possible. Wait until the user provides them. With no in-game shot at all, do not dissect.
 
-3. **Load the shared context.** Read `_axes.md` and everything in `style/`. If `_axes.md` holds no agreed axes, propose a list based on the defaults below, wait for agreement, save it, then continue.
+3. **Load the shared context.** Read `_axes.md` and everything in `aesthetics/`. If `_axes.md` holds no agreed axes, propose a list based on the defaults below, wait for agreement, save it, then continue.
 
 4. **Search for text sources.** Look for developer talks and interviews, and for technical breakdowns of how this game renders characters. Note what each one covers. Never cite a page you did not open.
 
 5. **Observe.** Fill the Observation field of every axis from the shots only. Name the shot each statement comes from.
 
-6. **Explain the technique.** For every axis, say how the look is probably achieved, without naming a production tool. Link to a `style/` doc instead of repeating a game-wide finding.
+6. **Explain the technique.** For every axis, say how the look is probably achieved, without naming a production tool. Link to an `aesthetics/` doc instead of repeating a game-wide finding.
 
-7. **Compare.** Read up to three existing docs in `characters/`. Note what this character shares with them and where it breaks the pattern. A finding that now holds for three or more characters moves to `style/`: write or update that doc and link to it.
+7. **Compare.** Read up to three existing docs in `characters/`. Note what this character shares with them and where it breaks the pattern. A finding that now holds for three or more characters moves to `aesthetics/`: write or update that doc and link to it.
 
 8. **Write the production briefs.** One per tool, each able to stand alone. Five to ten numbered rules per brief. Each rule is one imperative sentence that can be carried out in that tool, followed by the axis it rests on. A rule says how to reproduce what was observed. It is not a claim about how the developer built it, and not a design decision for another game. Close each brief with its own sources: one link the maker can open for every technique its rules name.
 
