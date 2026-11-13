@@ -153,7 +153,7 @@ Observation:
   - A cream band and a cream three-lobed motif on the large yellow panels of the skirt. [viewer: B back]
 - Knee creases: none visible on the boots. [viewer: B front, B back]
 
-Technique: The surface lines and flat shapes are painted into the base-colour texture. [inferred] The outline method is unverified; the two recreations opened for Amber use different methods. [breakdown: S3, S4]
+Technique: Surface lines and flat shapes: see [Painted lines and fold shapes](../aesthetics/painted-lines-and-fold-shapes.md). The outline method is unverified; the two recreations opened for Amber use different methods. [breakdown: S3, S4]
 
 ### 7. Clothing: structure, layering, trim, how pieces end
 
@@ -172,7 +172,7 @@ Observation:
 - Lace edges are cut out: the background shows through small holes at the glove and sleeve cuffs, and the yellow cloth shows through drop-shaped holes in the hems of the dark skirt panels. [viewer: B front, B back]
 - How pieces end: every edge is marked by contrast. The bodice ends in gold piping, the front skirt in a gold band, the skirt tiers in cream bands, lace hems or painted ruffles, the sleeves in lace cuffs, the boots in gold arches. [viewer: B front, B back]
 
-Technique: Large forms, bows, clasps and wheels are geometry; lacing, lace patterns, scrolls and ruffles are painted. [inferred] One recreation says hand-painted shadows are baked into the character textures at seams and folds. [breakdown: S4] Whether the lace holes are cut with texture transparency or modelled is unverified; a close-up of a lace hem would resolve it.
+Technique: Large forms, bows, clasps and wheels are geometry. [inferred] Lacing, lace patterns, scrolls and painted ruffles: see [Painted lines and fold shapes](../aesthetics/painted-lines-and-fold-shapes.md). Whether the lace holes are cut with texture transparency or modelled is unverified; a close-up of a lace hem would resolve it.
 
 ### 8. Detail and ornament
 

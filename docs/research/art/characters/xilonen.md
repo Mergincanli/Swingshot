@@ -147,7 +147,7 @@ Observation:
   - Face: brows, lashes, crease line and lips, as covered in Axes 2 and 3. [viewer: A Face]
 - Flat shapes drawn onto the surface: the thigh diamonds, the speckles, the tail's spots and bands, and the leopard print on the sleeve cuff. [viewer: B front, B back]
 
-Technique: The surface lines and flat shapes are painted into the base-colour texture. [inferred] The outline method is unverified; the two recreations opened for Amber use different methods. [breakdown: S3, S4]
+Technique: Surface lines and flat shapes: see [Painted lines and fold shapes](../aesthetics/painted-lines-and-fold-shapes.md). The outline method is unverified; the two recreations opened for Amber use different methods. [breakdown: S3, S4]
 
 ### 7. Clothing: structure, layering, trim, how pieces end
 
@@ -165,7 +165,7 @@ Observation:
 - Coat faces: the inside is orange-brown with chevron bands in orange, yellow, cream and teal near the hem. The outside is dark purple-brown with gold edging and zigzag lines, two long cream tails and red points near the hem. [viewer: A Front, A Back]
 - How pieces end: every edge is marked by contrast. The shorts end in a frayed white fringe, the sleeve in a printed cuff, the wraps in gold plates, the coat tails in points with hanging pendants. [viewer: B front, A Front] The fringe and rips are irregular edges, unlike the clean trim bands on Amber.
 
-Technique: Large forms, trims, fringe pieces and pendants are geometry; weave lines and patterns are painted. [inferred] Whether the fringe is solid geometry or flat cut-out pieces is unverified; a close-up would resolve it.
+Technique: Large forms, trims, fringe pieces and pendants are geometry. [inferred] Weave lines and patterns: see [Painted lines and fold shapes](../aesthetics/painted-lines-and-fold-shapes.md). Whether the fringe is solid geometry or flat cut-out pieces is unverified; a close-up would resolve it.
 
 ### 8. Detail and ornament
 

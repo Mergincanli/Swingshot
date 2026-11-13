@@ -153,7 +153,7 @@ Observation:
 - The knee creases and corset seam lines stay visible in-game. [shot: ingame-front]
 
 Technique:
-- The surface lines are painted into the base-colour texture. [inferred]
+- Surface lines: see [Painted lines and fold shapes](../aesthetics/painted-lines-and-fold-shapes.md).
 - The outline method is unverified. Two third-party recreations use different methods and neither says which the game uses. One builds an inverted hull, a second back-facing shell slightly larger than the model, and notes that some game materials tint the outline to match. [breakdown: S4] The other detects edges in screen space from depth and normals and suppresses them on the face. [breakdown: S3]
 
 ### 7. Clothing: structure, layering, trim, how pieces end
@@ -174,7 +174,7 @@ Observation:
 
 Technique:
 - Large forms and the main trims are geometry. Folds are few and painted: the same darker fold shapes on sleeves and hood show under both viewers' lighting. [inferred]
-- One recreation says hand-painted shadows are baked into the character textures at seams, folds, under the arms and under the neck. [breakdown: S4]
+- How painted folds are made across the game: see [Painted lines and fold shapes](../aesthetics/painted-lines-and-fold-shapes.md).
 
 ### 8. Detail and ornament
 
