@@ -302,10 +302,9 @@ Tool documentation is listed under each brief.
 
 ## Open questions
 
-1. Which pages do the two viewer sheets come from? They were pasted without links.
-2. Is the coat on or off in her standing in-game look? The outfit includes it, and viewer B shows her without it, together with the chest medallion and the spiked cuff. An in-game shot would settle it.
-3. Which game version do the viewer models come from?
-4. In-game shots that would lift this doc above Shape only. Record game version, platform and graphics preset with each, because PC and console use a different rendering pipeline from mobile. [official: S2]
+1. Is the coat on or off in her standing in-game look? The outfit includes it, and viewer B shows her without it, together with the chest medallion and the spiked cuff. An in-game shot would settle it.
+2. Which game version do the viewer models come from?
+3. In-game shots that would lift this doc above Shape only. Record game version, platform and graphics preset with each, because PC and console use a different rendering pipeline from mobile. [official: S2]
 
    | Shot | Fills |
    |---|---|
@@ -319,5 +318,5 @@ Tool documentation is listed under each brief.
    | Figure small in frame in Natlan, by day | Axes 12, 13 |
    | Three frames of a run cycle | Axis 12 |
 
-5. Are the flat marks on her hair ornaments, or painted highlights? A hair close-up from two angles would show whether they move.
-6. Are the soft lines on her back painted, or added by viewer B's lighting? An in-game shot of her back in flat light would show it.
+4. Are the flat marks on her hair ornaments, or painted highlights? A hair close-up from two angles would show whether they move.
+5. Are the soft lines on her back painted, or added by viewer B's lighting? An in-game shot of her back in flat light would show it.

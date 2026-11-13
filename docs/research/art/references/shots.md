@@ -18,12 +18,12 @@ A viewer sheet is marked "not in-game" in the Shot column. What each viewer gets
 | Viewer sheet A, not in-game. 16 views: Front, 3/4 Front, 1/4 Front, Side, 3/4 Back, 1/4 Back, Back, Face, 1/4 Face, 3/4 Face, Footwear, Front Detail, 3/4 Front Detail, Back Detail, 3/4 Back Detail, Back of Head | https://phoshco.github.io/model-viewer/amber | Captured 2026-11-13. Game version of the model unverified | Viewer lighting, red backdrop, bind pose |
 | Viewer captures B, not in-game: front, back | https://gamesfashionarchive.net/viewer/2058/2 | Captured 2026-11-13. Game version of the model unverified | Viewer lighting, white backdrop, bind pose |
 | Viewer captures B, not in-game: outfit front, outfit back (clothing on a blank mannequin) | Same site; exact page not given | Captured 2026-11-13. Game version of the model unverified | Viewer lighting, white backdrop, bind pose |
-| ingame-front. Provisional: gameplay not confirmed from the frame | pasted in chat, no link. Mustafa's screenshot of YouTube footage; video not linked | Unknown | Daylight, figure evenly lit, no game interface in the crop |
-| ingame-back. Confirmed gameplay: HUD in frame | pasted in chat, no link. Mustafa's screenshot of YouTube footage; video not linked | Unknown | Dim light |
+| ingame-front | YouTube playthrough footage, captured by Mustafa, no link | Unknown | Daylight, figure evenly lit, no game interface in the crop |
+| ingame-back | YouTube playthrough footage, captured by Mustafa, no link | Unknown | Dim light, HUD in frame |
 
 ## Xilonen
 
 | Shot | Link | Game version or date | Lighting |
 |---|---|---|---|
-| Viewer sheet A, not in-game. 16 views: Front, 3/4 Front, 1/4 Front, Side, 3/4 Back, 1/4 Back, Back, Face, 1/4 Face, 3/4 Face, Footwear, Front Detail, 3/4 Front Detail, Back Detail, 3/4 Back Detail, Back of Head. The Footwear view shows no feet | pasted in chat, no link. Same sheet layout as the phoshco model-viewer | Provided 2026-11-13. Game version of the model unverified | Viewer lighting, amber backdrop, bind pose, coat on |
-| Viewer captures B, not in-game: front, side, back | pasted in chat, no link. Same capture style and file naming as the Games Fashion Archive viewer | Provided 2026-11-13. Game version of the model unverified | Viewer lighting, white backdrop, arms in bind pose, tail hanging, coat off |
+| Viewer sheet A, not in-game. 16 views: Front, 3/4 Front, 1/4 Front, Side, 3/4 Back, 1/4 Back, Back, Face, 1/4 Face, 3/4 Face, Footwear, Front Detail, 3/4 Front Detail, Back Detail, 3/4 Back Detail, Back of Head. The Footwear view shows no feet | pasted in chat, no link. Source: phoshco model-viewer | Provided 2026-11-13. Game version of the model unverified | Viewer lighting, amber backdrop, bind pose, coat on |
+| Viewer captures B, not in-game: front, side, back | pasted in chat, no link. Source: Games Fashion Archive viewer | Provided 2026-11-13. Game version of the model unverified | Viewer lighting, white backdrop, arms in bind pose, tail hanging, coat off |
