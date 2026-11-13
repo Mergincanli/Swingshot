@@ -28,6 +28,8 @@ Video: do not describe what a video shows unless its description or transcript s
 
 Research reports in `references/reports/` are maps, not sources. Open the pages they point to and cite those.
 
+Pages that refuse to open: a claim seen only in a search-result excerpt is a lead, not a finding. Mark it "excerpt only", keep it out of every Production Brief, and list the page under Open questions. Do not file the page in `references/sources.md` until someone has opened it.
+
 Numbers (frames, milliseconds, damage, spread, range) need a source. Without one, write "Unquantified".
 
 ## Confidence, per doc
@@ -104,3 +106,4 @@ Lowercase with hyphens, no version in the name: `slash-shot.md`. Raw Research re
 
 - 2026-11-13: first version.
 - 2026-11-13: status values and index columns aligned with the art research; index and reference-file formats moved into those files; rules added for video, copied sources and Research reports; file name for reports.
+- 2026-11-13: source types news and repository added in `references/sources.md`; rule added for excerpt-only claims.
