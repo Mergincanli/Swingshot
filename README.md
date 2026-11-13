@@ -12,7 +12,8 @@ docs/
     art/                      written only by the Genshin art-style research
       INDEX.md                every doc, status, confidence
       _axes.md                agreed dissection axes; change only by agreement
-      aesthetics/             game-wide look findings: outlines, hair shading, skin, palette system, face construction
+      aesthetics/             game-wide look findings, one file per topic, via art-style-aesthetics-synthesis
+        _candidates.md        findings that may hold game-wide, with their status per character
       characters/             one file per character, via art-style-character-dissection
       weapons/                only when a weapon deserves its own doc; otherwise inside the character file
       enemies/                one file per enemy type
@@ -20,6 +21,7 @@ docs/
       references/sources.md   every link used, with what it was used for
       references/shots.md     links to in-game screenshots and viewer sheets, grouped by subject
       references/viewers.md   model viewers used for viewer sheets, and how each differs from the game
+      references/reports/     raw Research reports, saved unedited; never rewritten
     mechanics/                written only by the GunZ mechanics research
       INDEX.md                every doc, status, confidence, reference version
       _conventions.md         agreed vocabulary: version labels, evidence tags, importance scale, action names, doc formats; change only by agreement
@@ -50,7 +52,7 @@ docs/
   decisions.md                every deliberate departure from the reference: date, what, why
 blender/                      source files, textures, exports
 web/                          Three.js / WebGPU demo
-.claude/skills/               the skills the research runs on: art-style-character-dissection, mechanic-deconstruction
+.claude/skills/               the skills the research runs on: art-style-character-dissection, art-style-aesthetics-synthesis, mechanic-deconstruction
 CLAUDE.md                     loaded by every Claude Code session; points to this README
 ```
 

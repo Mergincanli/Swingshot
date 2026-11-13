@@ -33,7 +33,7 @@ This skill works for any game. The project instructions decide which game, which
 
 6. **Explain the technique.** For every axis, say how the look is probably achieved, without naming a production tool. Link to an `aesthetics/` doc instead of repeating a game-wide finding.
 
-7. **Compare.** Read up to three existing docs in `characters/`. Note what this character shares with them and where it breaks the pattern. A finding that now holds for three or more characters moves to `aesthetics/`: write or update that doc and link to it.
+7. **Compare.** Read up to three existing docs in `characters/`. Note what this character shares with them and where it breaks the pattern. Game-wide candidates live in `aesthetics/_candidates.md`, not in the character doc: add this character's line to each existing candidate, add new candidates there, and in the doc name only the candidate IDs it supports or breaks. When a candidate qualifies for promotion, say so; the aesthetics doc is written with the art-style-aesthetics-synthesis skill, never inside a dissection.
 
 8. **Write the production briefs.** One per tool, each able to stand alone. Five to ten numbered rules per brief. When confidence is Shape only, head each brief "Partial: shape only", write rules only for what was observed or cited, and accept fewer than five. Each rule is one imperative sentence that can be carried out in that tool, followed by the axis it rests on. A rule says how to reproduce what was observed. It is not a claim about how the developer built it, and not a design decision for another game. Close each brief with its own sources: one link the maker can open for every technique its rules name. Manual and API pages for the production tool are source type `tool docs`, cited only in a brief's source list.
 
@@ -119,7 +119,7 @@ Technique:
 - Are Observation and Technique separate in every axis?
 - Is there one brief per tool, each with five to ten rules (fewer when Shape only) and its own sources, and no rule that depends on the other brief?
 - Is the doc free of abilities, lore and gameplay?
-- Are `INDEX.md`, `references/shots.md` and `references/sources.md` updated?
+- Are `INDEX.md`, `references/shots.md`, `references/sources.md` and `aesthetics/_candidates.md` updated?
 
 ## Example
 

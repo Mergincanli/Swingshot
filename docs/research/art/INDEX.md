@@ -4,7 +4,7 @@ Every doc in `docs/research/art/`, one row each. Add or update the row whenever 
 
 - Type: aesthetics, character, weapon, enemy or region.
 - Status: `draft` until Mustafa has read it, then `reviewed`. Only Mustafa sets `reviewed`.
-- Confidence: High, Medium, Low or Shape only, as defined in the art-style-character-dissection skill.
+- Confidence: for character docs High, Medium, Low or Shape only, as defined in the art-style-character-dissection skill. For aesthetics docs Established, Sourced or Emerging, as defined in the art-style-aesthetics-synthesis skill.
 
 | Doc | Type | Status | Confidence | Updated |
 |---|---|---|---|---|
