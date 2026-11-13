@@ -92,23 +92,23 @@ Characters checked so far: Amber, Xilonen. In each character's line, `[viewer: .
 - Side: rendering
 - Outcome: open
 - Holds for: 0 of 2
-- Amber: Not observable. Provisional support only: face and thigh each read as one flat tone in the daylight still. [shot: ingame-front] [doc: amber, axis 5] A recreation states it. [breakdown: [bjayers](https://bjayers.artstation.com/blog/category/5)]
+- Amber: Not observable. In daylight, face and thigh each read as one flat tone, which fits the claim but does not test it. [shot: ingame-front] [doc: amber, axis 5] A recreation states it. [breakdown: [bjayers](https://bjayers.artstation.com/blog/category/5)]
 - Xilonen: Not observable. No in-game shot. [doc: xilonen, axis 5]
 
 ## C11. Outline colour follows the local material and is not black
 
 - Side: rendering
 - Outcome: open
-- Holds for: 0 of 2
-- Amber: Not observable as a pattern. One confirmed sample: a dark brown line beside skin. [shot: ingame-back] Provisional support: the line samples as dark wine around the hair and as warm brown at the jaw. [shot: ingame-front] [doc: amber, axis 6] A recreation notes that some game materials tint the outline to match. [breakdown: [bjayers](https://bjayers.artstation.com/blog/category/5)]
+- Holds for: 1 of 2
+- Amber: Holds, on hair and skin. The line samples as dark wine around the hair, warm brown at the jaw and dark brown beside the thigh; none is black. [shot: ingame-front, ingame-back] [doc: amber, axis 6] A recreation notes that some game materials tint the outline to match. [breakdown: [bjayers](https://bjayers.artstation.com/blog/category/5)]
 - Xilonen: Not observable. No in-game shot. [doc: xilonen, axis 6]
 
 ## C12. An even-width light rim runs along silhouette edges
 
 - Side: rendering
 - Outcome: open
-- Holds for: 0 of 2
-- Amber: Not observable. Provisional support only: a lighter strip sits just inside the outline on the same side of both boots. [shot: ingame-front] [doc: amber, axis 5] One recreation says the rim does not follow the mesh shape [breakdown: [bjayers](https://bjayers.artstation.com/blog/category/5)]; another builds it in screen space from depth. [breakdown: [Adrian Mendez](https://adrianmendez.artstation.com/projects/wJZ4Gg)]
+- Holds for: 1 of 2, in part
+- Amber: Holds in part, on the white boots in one still. A lighter strip sits just inside the outline on the same side of both boots; the other side and other materials were not sampled. [shot: ingame-front] [doc: amber, axis 5] One recreation says the rim does not follow the mesh shape [breakdown: [bjayers](https://bjayers.artstation.com/blog/category/5)]; another builds it in screen space from depth. [breakdown: [Adrian Mendez](https://adrianmendez.artstation.com/projects/wJZ4Gg)]
 - Xilonen: Not observable. No in-game shot. [doc: xilonen, axis 5]
 
 ## C13. The body is symmetric; asymmetry comes from one-sided accessories

@@ -4,12 +4,12 @@ Outfit: 5-Star Outrider, her default outfit. [community: S5] Neither viewer page
 
 Game version or shot date: Viewer captures made on 13 November 2026. The game version the viewer models come from is unverified. The two in-game stills carry no date or version.
 
-Confidence: Low. One in-game shot is confirmed gameplay (`ingame-back`: the game's HUD is in frame), so the doc is no longer Shape only. With fewer than three in-game shots and most renderer-side fields not observable, it is Low. `ingame-front` is a YouTube screenshot whose video is not linked and whose frame shows no game interface, so it stays provisional: every statement taken from it is marked "Provisional", it does not count toward the confidence, and no brief rule rests on it.
+Confidence: Low. There are two in-game shots, `ingame-front` and `ingame-back`, both gameplay: YouTube playthrough footage captured by Mustafa. Two is fewer than three, and most renderer-side fields are still not observable. The game version, platform and graphics preset of the footage are unknown. No brief rule rests on the stills yet.
 
 Shots used:
 - Viewer sheet A: 16 labelled views (Front, 3/4 Front, 1/4 Front, Side, 3/4 Back, 1/4 Back, Back, Face, 1/4 Face, 3/4 Face, Footwear, Front Detail, 3/4 Front Detail, Back Detail, 3/4 Back Detail, Back of Head). Bind pose, red backdrop, viewer lighting. Tagged `[viewer: A <view>]`.
 - Viewer captures B: four captures (front, back, outfit front, outfit back; the last two show the clothing on a blank mannequin). Bind pose, white backdrop, viewer lighting. Tagged `[viewer: B <view>]`.
-- In-game stills, both Mustafa's screenshots of YouTube footage with the video not linked: `ingame-back` (dim light, HUD visible, confirmed gameplay) and `ingame-front` (daylight, standing in grass, no interface in the crop, provisional). Tagged `[shot: <name>]`.
+- In-game stills: YouTube playthrough footage, captured by Mustafa, no link. `ingame-front` (daylight, standing in grass, no interface in the crop) and `ingame-back` (dim light, HUD visible). Tagged `[shot: <name>]`.
 
 Links and capture details are in [references/shots.md](../references/shots.md).
 
@@ -17,7 +17,7 @@ How each viewer differs from the in-game stills is recorded in [references/viewe
 
 ## Production brief: Blender
 
-These rules cover the model and its textures only. There are no rules yet for outlines, shading bands, highlights, rim light or how materials respond to light: one small in-game still is too little to write them from.
+These rules cover the model and its textures only. There are no rules yet for outlines, shading bands, highlights, rim light or how materials respond to light.
 
 1. Block out the body in an orthographic front view at about seven head-heights, with shoulders about one head wide and legs a little over half the height. (Axis 1)
 2. Model the face as a smooth surface whose only clear relief is a small nose tip, and draw brows, lash lines, eyelid crease and mouth line in the face texture. (Axis 2)
@@ -37,7 +37,7 @@ Sources for this brief:
 
 ## Production brief: Three.js / WebGPU
 
-The model and textures are authored elsewhere; these rules cover what the runtime must keep intact. There are no rules yet for shading, outlines or lighting: one small in-game still is too little to write them from.
+The model and textures are authored elsewhere; these rules cover what the runtime must keep intact. There are no rules yet for shading, outlines or lighting.
 
 1. Check proportions through an `OrthographicCamera`, because a close perspective camera changed the measured height from 6.9 to 5.7 head-heights between the two viewers. (Axis 1)
 2. Set `colorSpace = SRGBColorSpace` on every base-colour texture so the flat colours display as authored. (Axis 10)
@@ -66,7 +66,7 @@ Observation:
 - Hair reaches the belt at the back and fans into pointed locks. [viewer: B back]
 - Legs read as one long, smooth shape from mid-thigh to toe. [viewer: A Front]
 - Hip accessories break the outline on both sides: a tall case on the right thigh, and on the left a pouch plus a hanging tassel that ends just below the top of the white boot. [viewer: A Front, B front]
-- Provisional: in idle pose the arms hang and the sleeves read as wide bells, so the outline is narrower than in bind pose. Height is at least 6.3 head-heights down to the ankle; grass hides the feet. [shot: ingame-front]
+- In-game, in idle pose, the arms hang and the sleeves read as wide bells, so the outline is narrower than in bind pose. Height is at least 6.3 head-heights down to the ankle; grass hides the feet. [shot: ingame-front]
 
 Technique: Proportions belong to the mesh. [inferred] The developer describes character models as built from three-view drawings to shared standards for tessellation, topology and textures. [official: S1]
 
@@ -82,8 +82,8 @@ Observation:
 - A faint pink tint sits under each eye, strongest toward the outer corner. [viewer: B front]
 - Ears are small, simple and mostly hidden by hair. [viewer: A 3/4 Face]
 - Whether brows or eyes show through the hair in-game: Not observable. An in-game face close-up would resolve it.
-- Face shading: Not observable. In-game face shots lit from the front and from the side would resolve it.
-- Provisional: viewer B's lighting shows lip and nose volume as soft shading, while the in-game face is one flat tone with a single small highlight dot on the nose and a short mouth line. [viewer: B front] [shot: ingame-front]
+- Face shading under side light: Not observable. In-game face shots lit from the front and from the side would resolve it.
+- Viewer B's lighting shows lip and nose volume as soft shading, while the in-game face is one flat tone with a single small highlight dot on the nose and a short mouth line. [viewer: B front] [shot: ingame-front]
 
 Technique:
 - Brows, lash lines and mouth line are drawn in the face texture. [inferred]
@@ -101,7 +101,7 @@ Observation:
 - Each iris has two highlights: a larger round white dot at upper image-right and a smaller pink oval at upper image-left. [viewer: A Face]
 - The highlights sit on the same side in both eyes, not mirrored, and stay in place across three camera angles. [viewer: A Face, A 1/4 Face, A 3/4 Face]
 - The iris is about 35 px wide in the largest view, so finer detail is Not observable. An in-game face close-up would resolve it.
-- Provisional: in-game the irises read yellower than in either viewer. [shot: ingame-front]
+- In-game the irises read yellower than in either viewer. [shot: ingame-front]
 
 Technique: Iris, lashes and highlights are painted in a texture, since the highlights do not move with the viewer's camera. [inferred] Whether the game shades the eyes or adds a moving highlight: Not observable. In-game face close-ups from two angles would resolve it.
 
@@ -118,7 +118,7 @@ Observation:
 - A red hairband with a thin gold edge carries the bow. [viewer: B front, A 3/4 Face]
 - Highlight shape, shadow tone and whether the highlight moves with the camera: Not observable. Two in-game hair close-ups from different camera heights, in daylight, would resolve it.
 - Viewer A shows a soft pale band across the back of the head. That is the viewer's lighting and is not evidence. [viewer: A Back of Head]
-- Provisional: in-game the hair reads as a dark wine-brown, about `#5A2D3A`, redder and more saturated than the viewers' base colour. [shot: ingame-front]
+- In-game the hair reads as a dark wine-brown, about `#5A2D3A`, redder and more saturated than the viewers' base colour. [shot: ingame-front]
 
 Technique:
 - Hair is built from solid clumps, with strand lines and the crown-to-tip gradient painted on. [inferred]
@@ -129,9 +129,9 @@ Technique:
 Observation:
 - Base tone is very pale and warm, about `#FFEDD7` on cheek and thigh. [viewer: B front]
 - Skin shows on the face, neck, upper chest, wrists and a band of thigh. [viewer: A Front]
-- Shading bands and rim light: Not observable. In-game shots in direct sun and in shade would resolve it.
-- Provisional: the face is one flat tone, about `#F5CCB0`. The neck is slightly darker and more saturated, about `#F5BFA1`, and meets the face at a hard edge under the jaw. The thigh is one flat tone across its width. [shot: ingame-front]
-- Provisional: a lighter strip, about `#E6CFC6` against `#C0B5B4`, sits just inside the outline on the same side of both boots. [shot: ingame-front]
+- Shading bands and rim light beyond the two notes below: Not observable. In-game shots in direct sun and in shade would resolve it.
+- In-game, in daylight, the face is one flat tone, about `#F5CCB0`. The neck is slightly darker and more saturated, about `#F5BFA1`, and meets the face at a hard edge under the jaw. The thigh is one flat tone across its width. [shot: ingame-front]
+- In-game, a lighter strip, about `#E6CFC6` against `#C0B5B4`, sits just inside the outline on the same side of both boots. [shot: ingame-front]
 
 Technique: Unverified. See candidates C9, C10 and C12 in [aesthetics/_candidates.md](../aesthetics/_candidates.md).
 
@@ -140,9 +140,9 @@ Technique: Unverified. See candidates C9, C10 and C12 in [aesthetics/_candidates
 Observation:
 - Outlines: neither viewer draws one. [viewer: A Front, B front]
 - In dim light a dark brown line, about `#533E20`, separates the thigh from the grass behind it and is darker than both. [shot: ingame-back]
-- Where outlines appear, how thick they are and where they vanish: Not observable. In-game front, side and back shots at two distances would resolve it.
-- Provisional: a thin dark line surrounds the whole silhouette and separates overlapping parts. It is about 2 px wide where the figure is at least 724 px tall, roughly 0.3% of figure height. [shot: ingame-front]
-- Provisional: the line's colour follows what it borders. It samples as dark wine, about `#462638`, around the hair, and as warm brown, about `#B2785E`, at the jaw. No sampled line is pure black. [shot: ingame-front]
+- Where outlines vanish and how their thickness changes with distance: Not observable. In-game front, side and back shots at two distances would resolve it.
+- In-game, a thin dark line surrounds the whole silhouette and separates overlapping parts. It is about 2 px wide where the figure is at least 724 px tall, roughly 0.3% of figure height. [shot: ingame-front]
+- The line's colour follows what it borders. It samples as dark wine, about `#462638`, around the hair, and as warm brown, about `#B2785E`, at the jaw. No sampled line is pure black. [shot: ingame-front]
 - Lines drawn onto the surface:
   - Dashed stitches: dark dashes along each sleeve and around the armhole, cream dashes along the corset seams, dashes on the pocket flaps. [viewer: B outfit front, B outfit back]
   - Seams and edges: dark lines along the hood seams, the shorts' centre seam, the pocket outlines and the belt edges, and a lighter line just inside the shorts hem. [viewer: B outfit front, B outfit back]
@@ -150,7 +150,7 @@ Observation:
   - Trim edges: a thin dark line beside most gold trim, including the bow corners, hood trim and lacing frame. [viewer: B front, B outfit back]
   - Slot marks along the goggle rims. [viewer: B outfit front]
   - Hair strand lines, brows, lashes and mouth line, as covered in Axes 2 to 4. [viewer: B front]
-- Provisional: the knee creases and corset seam lines stay visible in-game. [shot: ingame-front]
+- The knee creases and corset seam lines stay visible in-game. [shot: ingame-front]
 
 Technique:
 - The surface lines are painted into the base-colour texture. [inferred]
@@ -199,7 +199,7 @@ Technique: Large trims are geometry; small ornament is painted or in low relief.
 Observation:
 - How cloth, metal, leather, glass and the gem respond to light: Not observable. In-game close-ups of the goggles, gold trim, belt and gem in direct sun, from two camera angles, would resolve it.
 - The viewers show only the painting underneath. Gold trim is painted in two or three flat tones. The goggle lenses are painted as a vertical gradient from dark brown to orange-brown. The gem is painted with a bright rim. [viewer: B outfit front, B front]
-- Provisional: in-game the corset emblem samples at about `#B99C7F`, close in saturation and value to the viewer's `#BFAB86`, and the goggle rims carry brighter spots up to about `#F3CDAF`. [shot: ingame-front]
+- In-game the corset emblem samples at about `#B99C7F`, close in saturation and value to the viewer's `#BFAB86`, and the goggle rims carry brighter spots up to about `#F3CDAF`. [shot: ingame-front]
 
 Technique: Unverified. One recreation describes metal as a matcap combined with a real-time specular term. [breakdown: S4] The other uses a matcap-style gradient lookup driven by the view and light directions. [breakdown: S3]
 
@@ -229,7 +229,7 @@ Observation: Base colours were sampled from B front and B back, the most evenly 
 - Iris colour values: Not observable. The iris is too small to sample in every view; an in-game face close-up would resolve it.
 - Lit tone and shadow tone: observed for white only, in dim light (see below). For every other colour: Not observable. In-game shots of the same pose in direct sun and in shade would resolve it.
 - The textures themselves hold a second, darker tone in places: red `#A63F3F` with `#953C3C` under the hood, and white `#EAE6E4` with `#CAC5C1` under the bust. [viewer: B front, B outfit front]
-- Provisional, daylight still: red `#902126`, hair `#5A2D3A`, corset `#43262B`, white `#C0B5B4`, skin `#F5CCB0`. Against the viewer's base colours these are darker, more saturated and shifted toward red. The white reading suggests the figure is in shade or the still has a warm cast. [shot: ingame-front]
+- Daylight still: red `#902126`, hair `#5A2D3A`, corset `#43262B`, white `#C0B5B4`, skin `#F5CCB0`. Against the viewer's base colours these are darker, more saturated and shifted toward red. The white reading suggests the figure is in shade or the still has a warm cast. [shot: ingame-front]
 - In dim light the white boots split into two flat tones with a hard edge, lit about `#A4A5A4` and shadow about `#756B78`. The shadow tone is cooler and leans purple; it is not just darker. [shot: ingame-back]
 
 Technique: Each material region holds one flat base colour in the texture, with a few painted darker shapes. [inferred] One recreation reports that the game sets the colours on each side of the shadow edge per character with shadow ramps. [breakdown: S4] Unverified on Amber.
@@ -254,8 +254,8 @@ Technique: The large blocks are separated by value first and hue second. [inferr
 ### 13. Fit with the world
 
 Observation:
-- By day: Not observable. In-game shots in Mondstadt in daylight, with the figure small in frame, would resolve it.
-- Provisional: against green grass, a blue-grey cliff and a pale building, her red and dark brown do not occur in the background, so the figure separates by hue as well as by outline. [shot: ingame-front]
+- By day, with the figure small in frame: Not observable. An in-game shot in Mondstadt in daylight would resolve it.
+- In daylight, against green grass, a blue-grey cliff and a pale building, her red and dark brown do not occur in the background, so the figure separates by hue as well as by outline. [shot: ingame-front]
 - In dim light on dark grass, the white legs and red bands stay the brightest and most saturated shapes in frame. [shot: ingame-back]
 
 Technique:
@@ -270,7 +270,7 @@ None yet. This is the first doc in `characters/`.
 
 ### Game-wide candidates
 
-Supports: C1, C2, C3, C4, C5, C6, C7, C8, C9, C13, C14, C15, C16.
+Supports: C1, C2, C3, C4, C5, C6, C7, C8, C9, C11, C12, C13, C14, C15, C16.
 
 Breaks: none.
 
@@ -289,7 +289,7 @@ Tool documentation is listed under each brief.
 
 ## Open questions
 
-1. Which YouTube video does `ingame-front` come from? Its frame shows no game interface, so gameplay is unconfirmed and it stays provisional. If it is a trailer frame, it is not evidence. For both stills, the game version, platform and graphics preset are unknown.
+1. Which game version, platform and graphics preset do the two in-game stills show? The footage does not say.
 2. Which game version do the viewer models come from?
 3. In-game shots that would lift this doc above Low. Record game version, platform and graphics preset with each, because PC and console use a different rendering pipeline from mobile. [official: S2]
 
