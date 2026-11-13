@@ -76,7 +76,7 @@ Observation:
 - The chin is small and pointed and the jaw has no visible angle. [viewer: A Face, A 3/4 Face]
 - The eyes are narrow and set wide: the gap between them is about 1.3 eye-widths. [viewer: A Face]
 - Eyebrows are thin, arched, dark-blue lines in the hue of the hair. [viewer: B front, A Face]
-- A small pale dot sits on the tip of the nose in viewer B. [viewer: B front] Viewer A's Face view is too small to show it.
+- A small pale dot sits on the tip of the nose in viewer B. [viewer: B front] It does not show at the size of viewer A's Face view.
 - The face is partly covered: the hat's front point and one thin lock that crosses the face diagonally hide part of the right eye. [viewer: A Face, B front]
 - Human ears are visible beside the front locks. Each carries a dark stud with a blue drop. [viewer: A Front Detail, B front]
 - How far down the head the eyes sit: Not observable. The hat hides the top of the head. A higher-resolution side view, where the hair cap shows under the brim, would resolve it.
