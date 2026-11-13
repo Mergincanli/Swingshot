@@ -35,3 +35,10 @@ A viewer sheet is marked "not in-game" in the Shot column. What each viewer gets
 | Viewer sheet A, not in-game. 16 views: Front, 3/4 Front, 1/4 Front, Side, 3/4 Back, 1/4 Back, Back, Face, 1/4 Face, 3/4 Face, Footwear, Front Detail, 3/4 Front Detail, Back Detail, 3/4 Back Detail, Back of Head | pasted in chat, no link. Source: phoshco model-viewer | Provided 2026-11-13. Game version of the model unverified | Viewer lighting, violet backdrop, bind pose |
 | Viewer captures B, not in-game: front, side, back | pasted in chat, no link. Source: Games Fashion Archive viewer | Provided 2026-11-13. Game version of the model unverified | Viewer lighting, white backdrop, bind pose |
 | Viewer capture B, not in-game: outfit front (clothing from collar to thigh, no head; without hat, long drape, banner and boots) | pasted in chat, no link. Source: Games Fashion Archive viewer | Provided 2026-11-13. Game version of the model unverified | Viewer lighting, white backdrop, arms lowered |
+
+## Navia
+
+| Shot | Link | Game version or date | Lighting |
+|---|---|---|---|
+| Viewer sheet A, not in-game. 16 views: Front, 3/4 Front, 1/4 Front, Side, 3/4 Back, 1/4 Back, Back, Face, 1/4 Face, 3/4 Face, Footwear, Front Detail, 3/4 Front Detail, Back Detail, 3/4 Back Detail, Back of Head | pasted in chat, no link. Source: phoshco model-viewer | Provided 2026-11-13. Game version of the model unverified | Viewer lighting, amber backdrop, bind pose |
+| Viewer captures B, not in-game: front, side, back | pasted in chat, no link. Source: Games Fashion Archive viewer | Provided 2026-11-13. Game version of the model unverified | Viewer lighting, white backdrop, bind pose |
