@@ -159,7 +159,7 @@ Observation:
 - Fastening: two pairs of pale open rhombi face each other across the chest, one pair above the other. [viewer: B front, A Front Detail]
 - Sleeves: dark brown at the shoulder, warmer brown toward the wrist. A tan line runs down each sleeve from a rhombus knot at the upper arm. [viewer: B front, B back]
 - Cuffs: large, pointed and turned back, black outside with an indigo face, carrying an ornament of two linked pale gold rhombi. [viewer: B front]
-- Hands: near-black gloves. A pale band sits on one finger of the right hand. [viewer: B front] An amber rhombus in a grey frame sits on the back of the left hand; the right hand's back is not shown. [viewer: B side, A Side]
+- Hands: near-black gloves. A pale band sits on one finger of the right hand. [viewer: B front] An amber rhombus in a grey frame sits on the back of the right hand, the one the side views show; the left hand's back is not shown. [viewer: B side, A Side]
 - Coat, lower part: open at the front from the waist. Each front panel carries tan flame-shaped appliqué above the scale pattern and ends in a point. Each point carries a grey open rhombus, a black bead and a long cream tassel. [viewer: B front, A Front]
 - Coat, back: a black yoke with a large cream square-knot emblem, framed by orange-tan bands in a V. Pale grey panels edged in tan lie over the shoulder blades. Below the yoke a slate centre panel runs to the hem between tan piping. [viewer: B back, A Back of Head]
 - Lining: viewer A shows the inside of the coat's skirt as golden yellow, about `#C5A14F`. Viewer B shows no yellow in any capture. [viewer: A Front, A 3/4 Back, B front, B side] Which is right is unverified; the difference is recorded in [references/viewers.md](../references/viewers.md).
@@ -181,7 +181,7 @@ Observation:
   - A pale gold four-point pin on the right side of the chest. [viewer: B front, A 3/4 Front Detail]
   - The single earring on the left ear. [viewer: B front, B back]
   - The fringe lock that crosses the face. [viewer: A Face]
-- Gems: all amber. One at the throat, one in the hair clasp, one on the back of the left hand, one on each side of the back at waist level, one in a round gold ornament at the centre of the lower back, and one at each lower corner of the back panel. [viewer: A Face, B back, B side]
+- Gems: all amber. One at the throat, one in the hair clasp, one on the back of the right hand, one on each side of the back at waist level, one in a round gold ornament at the centre of the lower back, and one at each lower corner of the back panel. [viewer: A Face, B back, B side]
 - A chain of pale beads hangs in a swag between the two waist gems on the back. [viewer: B back, A Back Detail]
 - Gold pieces carry two or three flat tones, one per facet. [viewer: A Face, B front]
 
