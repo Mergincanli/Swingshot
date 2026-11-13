@@ -36,7 +36,7 @@ Sources for this brief:
 
 Partial: shape only. The model and textures are authored elsewhere; these rules cover what the runtime must keep intact. There are no rules yet for shading, outlines or lighting.
 
-1. Check proportions through an `OrthographicCamera`, because the skirt hem sat 38% of the way from chin to sole in one viewer and 40% in the other viewer's perspective camera. (Axis 1)
+1. Check proportions through an `OrthographicCamera`, because the two viewers' cameras disagree: the skirt hem sat 38% of the way from chin to sole in one and 40% in the other. (Axis 1)
 2. Set `colorSpace = SRGBColorSpace` on every base-colour texture so the flat colours display as authored. (Axis 10)
 3. Take seams, creases, pleat lines and cloth patterns from the base-colour map, and do not generate them with an edge-detection pass. (Axis 6)
 4. Keep the eye highlight in the eye's base-colour map, and do not add a specular or reflection highlight to the eye material. (Axis 3)
