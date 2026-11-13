@@ -18,7 +18,7 @@ Characters checked so far: Amber, Xilonen, Clorinde, Navia. In each character's 
 ## C1. Stitches, seams, creases and trim edges are painted into the base-colour texture
 
 - Side: shape
-- Outcome: open
+- Outcome: promoted to [painted-lines-and-fold-shapes.md](painted-lines-and-fold-shapes.md)
 - Holds for: 4 of 4
 - Amber: Holds. [viewer: B outfit front, B outfit back] [doc: amber, axis 6]
 - Xilonen: Holds. [viewer: B front, B back] [doc: xilonen, axis 6]
@@ -28,7 +28,7 @@ Characters checked so far: Amber, Xilonen, Clorinde, Navia. In each character's 
 ## C2. Textures hold hand-painted darker shapes at folds and overhangs
 
 - Side: shape
-- Outcome: open
+- Outcome: promoted to [painted-lines-and-fold-shapes.md](painted-lines-and-fold-shapes.md)
 - Holds for: 3 of 4
 - Amber: Holds. The same darker fold shapes show under both viewers' lighting. [viewer: B outfit front] [doc: amber, axes 7 and 10] A recreation states that hand-painted shadows are baked into the character textures. [breakdown: [bjayers](https://bjayers.artstation.com/blog/category/5)]
 - Xilonen: Not observable. No clear fold shapes at the size of the views. [viewer: B front] [doc: xilonen, axis 7]

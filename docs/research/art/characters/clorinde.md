@@ -150,7 +150,7 @@ Observation:
   - A dark-on-dark pointed shape at the bottom of the corset. [viewer: B outfit front]
 - Knee creases: none visible on the tights. [viewer: B front, B back]
 
-Technique: The surface lines and flat shapes are painted into the base-colour texture. [inferred] The outline method is unverified; the two recreations opened for Amber use different methods. [breakdown: S3, S4]
+Technique: Surface lines and flat shapes: see [Painted lines and fold shapes](../aesthetics/painted-lines-and-fold-shapes.md). The outline method is unverified; the two recreations opened for Amber use different methods. [breakdown: S3, S4]
 
 ### 7. Clothing: structure, layering, trim, how pieces end
 
@@ -170,7 +170,7 @@ Observation:
 - Boots: ankle boots with a near-black pointed toe section, a white upper section with gold studs, a wide folded white cuff with a gold ornament on its outer side, and a thin gold heel and gold sole edge. [viewer: A Footwear, B side]
 - How pieces end: every edge is marked by contrast. The banner ends in a gold border and tassels, the sleeves in white cuffs with a gold band, the cape in dark knot shapes over a brighter lining, the skirt slit in a blue lining, the boots in a white cuff and gold trim. No edge is frayed or faded. [viewer: B outfit front, B front, B back]
 
-Technique: Large forms, trims, drops and tassels are geometry; seams and patterns are painted. [inferred] One recreation says hand-painted shadows are baked into the character textures at seams and folds. [breakdown: S4] Whether the crossed straps on the corset panel are modelled or painted is unverified; a close-up at a raking angle would resolve it.
+Technique: Large forms, trims, drops and tassels are geometry. [inferred] Seams, patterns and painted folds: see [Painted lines and fold shapes](../aesthetics/painted-lines-and-fold-shapes.md). Whether the crossed straps on the corset panel are modelled or painted is unverified; a close-up at a raking angle would resolve it.
 
 ### 8. Detail and ornament
 
