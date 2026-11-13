@@ -13,4 +13,5 @@ Every doc in `docs/research/art/`, one row each. Add or update the row whenever 
 | [characters/clorinde.md](characters/clorinde.md) | character | draft | Shape only | 2026-11-13 |
 | [characters/navia.md](characters/navia.md) | character | draft | Shape only | 2026-11-13 |
 | [characters/zhongli.md](characters/zhongli.md) | character | draft | Shape only | 2026-11-13 |
+| [characters/wriothesley.md](characters/wriothesley.md) | character | draft | Shape only | 2026-11-13 |
 | [aesthetics/painted-lines-and-fold-shapes.md](aesthetics/painted-lines-and-fold-shapes.md) | aesthetics | draft | Established | 2026-11-13 |
