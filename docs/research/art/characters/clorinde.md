@@ -312,7 +312,7 @@ Tool documentation is listed under each brief.
 ## Open questions
 
 1. Which game version do the viewer models come from?
-2. How tall is the head under the hat? The Side view gives 6.7 to 7.3 head-heights. A higher-resolution side view, or an in-game side shot, would narrow it.
+2. How tall is the head under the hat? The Side view gives 6.7 to 7.3 head-heights. A viewer capture with the hat hidden, if the viewer allows it, would give the figure directly; a higher-resolution side view would narrow it.
 3. In-game shots that would lift this doc above Shape only. Record game version, platform and graphics preset with each, because PC and console use a different rendering pipeline from mobile. [official: S2]
 
    | Shot | Fills |
